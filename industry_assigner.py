@@ -26,8 +26,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ---------------------------------------------------------------------------
 
 # Initialize OpenAI client with API key
-client = OpenAI(api_key="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")
-MODEL = "gpt-4o-mini" # Extremely fast and cheap
+client = OpenAI(api_key="xxxx")
+MODEL = "gpt-4o-mini"
 
 TARGET_INDUSTRIES = [
     "Materials & Resources", "Manufacturing", "Construction & Engineering",
